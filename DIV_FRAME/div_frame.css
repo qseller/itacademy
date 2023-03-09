@@ -1,0 +1,57 @@
+  
+   .newleftbot {
+    background-image: url(ramka\ leftbottom.png);
+    background-position: 0.2% 99.8%; 
+    background-repeat: no-repeat;  
+}
+  .lefttop {
+    background-image: url(ramka\ lefttop.png);
+    background-position: 0.2% 0.2%; 
+    background-repeat: no-repeat;        
+  }
+  .rigtop {
+    background-image: url(ramka\ rigtop.png);
+    background-position: 99.8% 0.2%; 
+    background-repeat: no-repeat;   
+  }
+  .rigbottom {
+    background-image: url(ramka\ rigbottom.png);
+    background-position: 99.8% 99.8%; 
+    background-repeat: no-repeat;   
+  }
+  .top {
+    background-image: url(ramka\ top.png);
+    background-position: 20% 0.2%; 
+    background-repeat: repeat-x;    
+  }
+  .bottom {
+    background-image: url(ramka\ bottom.png);
+    background-position: 20% 99.8%; 
+    background-repeat: repeat-x;   
+  }
+  .rig {
+    background-image: url(ramka\ rig.png);
+    background-position: 99.8% 45%; 
+    background-repeat: repeat-y;    
+  }
+  .left {
+  
+    background-image: url(ramka\ left.png);
+    background-position: 0.2% 45%; 
+    background-repeat: repeat-y;   
+  }
+
+  .text {
+    
+    text-align: center;
+    font-size: 30px;
+    padding: 7%;
+    border-style: solid;    
+    overflow: hidden
+  }
+  #rep{
+    overflow: hidden;
+    max-width: 40%;
+    
+  }
+
