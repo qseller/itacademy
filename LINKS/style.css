@@ -1,11 +1,15 @@
-
-il {
+ul {
+    list-style: none;
+    margin: 0; 
+    padding-left: 0; 
+  }
+li {
     display: inline-block;
     margin-right: 10px;
     border: 0px solid red;
     padding: 20px;
 }
-il:nth-child(1n+1) {
+li:nth-child(1n+1) {
     border-right: 4px solid red;
 }
 th {
@@ -23,6 +27,9 @@ span {
     border-right: 4px solid red;
     height: 40px;
     text-align: center;
+}
+a {
+    text-decoration: none;
 }
 a:hover{
     color: red;
