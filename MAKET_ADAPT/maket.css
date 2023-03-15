@@ -1,0 +1,58 @@
+#tab {
+    width: 100%;     
+    border-collapse: collapse;    
+    
+  }
+  .head {
+    text-align: center;
+    background-color: #aed9e7;
+    
+  }
+  #menu {
+    position: absolute;
+    text-align: center;
+    background-color: #f0e78d;
+    height: 420px;
+    width: 170px;
+    float: left
+    
+  }
+  #osn {
+    text-align: center;
+    height: 420px;
+    background-color: #ffffff;
+    margin: 0;
+    float: left;
+    padding-left: 210px;
+    background-image: url(ball.png);
+    background-size: 100px;
+    background-position: 100%;
+    background-repeat: repeat-y;
+        
+  }
+  #osn img{
+      float: left;
+  }
+  #son p{
+      clear: right;
+      
+  }
+
+  .foot {
+    text-align:  center;
+    background-color: #aed9e7;
+    
+  }
+  .bordbot{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #321BF8;
+    clear:both
+    
+  }
+  .bordtop{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #321BF8;
+  }
+  
