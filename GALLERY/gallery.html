@@ -10,11 +10,16 @@
     .row {
       display: flex;
       flex-direction: column;
+      height: 400px;
+    }
+    .scroll{
+      overflow:scroll;
     }
   </style>
   <body>
     <header><p>Мои любимые мультфильмы</p></header>
     <div class="row">
+      <div class="scroll">
       <iframe
         width="560"
         height="315"
@@ -43,6 +48,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
         <a href="https://www.youtube.com/embed/qchg6C6dxQk">смотреть в отдельном окне</a>
+      </div>
     </div>
   </body>
 </html>
