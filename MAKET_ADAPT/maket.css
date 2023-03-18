@@ -1,4 +1,5 @@
-#tab {
+@media screen and (max-width: 1920px){
+.tab {
     width: 100%;     
     border-collapse: collapse;    
     
@@ -8,7 +9,7 @@
     background-color: #aed9e7;
     
   }
-  #menu {
+  .menu {
     position: absolute;
     text-align: center;
     background-color: #f0e78d;
@@ -17,7 +18,7 @@
     float: left
     
   }
-  #osn {
+  .osn {
     text-align: center;
     height: 420px;
     background-color: #ffffff;
@@ -29,12 +30,11 @@
     background-repeat: repeat-y;
         
   }
-  #osn img{
+  .osn img{
     float: left;
   }
-  #son p{
-      clear: right;
-      
+  .son p{
+      clear: right;    
   }
 
   .foot {
@@ -54,5 +54,23 @@
     padding-bottom: 3px;
     color: #321BF8;
   }
-  
-  
+}
+  @media screen and (max-width: 480px) {
+    
+    .menu {
+      display: block;
+      text-align: center;
+      background-color: #f0e78d;
+      height: 240px;
+      width: 96.5%;
+      margin-right: -00px;
+     }
+      .osn{
+        margin-top: 210px;
+        margin-left: -190px;
+        
+     }
+   
+ }
+
+         
