@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formstyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cont">
+      <p style="margin-top: 10px">
+        <label
+          >Для публикации вашей статьи заполните, пожалуйста, следующую
+          форму:</label
+        >
+      </p>
+      <form style="margin-bottom: -10px" method="POST" action="MaketForm.php" target="_blank">
+        <div>
+          <div>
+            Название статьи:
+            <input class="stat" type="text" name="title"/>
+          </div>
+          <div>
+            <label class="rub">Рубрика:</label>
+            <select class="ots" name="rubric">
+              <option value="1">компьютерная техника</option>
+              <option value="2">графика и дизайн</option>
+              <option value="3" selected="">программирование</option>
+            </select>
+          </div>
+          <div>
+            <label class="pab">Публикация:</label>
+          <span class="ot">
+            <span id="r1"><input type="radio" name="public" value="1" />на сайте</span>
+            <span id="r2"><input type="radio" name="public" value="2" />в журнале</span>
+            <span id="r3"><input type="radio" name="public" value="3" />на сайте и в журнале</span>
+          </span>
+         </div>
+          <div class="com">
+            Разрешить&nbsp;комментарии:<input
+              type="checkbox"
+              name="comments"
+              checked="4"
+            />
+          </div>
+          <div class="text">
+            Текст статьи:<br/>
+            <textarea class="pub" name="article"></textarea>
+          </div>
+          <div><input type="submit" value="Опубликовать" /></div>
+      </form>
+      <br />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+#sz{
+    max-width: 1920;
+}
+
+.radion{
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    position:absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 420px;
+    height: 40px;
+    
+}
+.people{
+    display: block;
+    margin: auto;
+    margin-top: 110px;
+    position:absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 20px;
+    height: 400px;
+}
+.smoking{
+    display: block;
+    margin: auto;
+    margin-top: 180px;
+    position:absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 270px;
+    z-index: 1;
+    height: 200px;   
+}
+.inan{
+    display: block;
+    margin: auto;
+    margin-top: 320px;
+    position:absolute; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 220px;
+    z-index: 0;
+}
+.radion:hover{
+    z-index: 5;
+}
+.people:hover{
+    z-index: 5;
+}
+.inan:hover{
+    z-index: 5;
+}
+#top{
+    margin-bottom: 100px;
+    display: block;
+}
+#bottom{
+    float: left;
+    margin-top: 370px;
+}
