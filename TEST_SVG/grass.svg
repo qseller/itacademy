@@ -1,0 +1,40 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" id="svg3033" version="1">
+  <defs id="defs3035">
+    <linearGradient id="linearGradient3875">
+      <stop offset="0" id="stop3877" style="stop-color:#4c8d2f;stop-opacity:1"/>
+      <stop offset="1" id="stop3879" style="stop-color:#38572a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3848">
+      <stop offset="0" id="stop3850" style="stop-color:#434e28;stop-opacity:1"/>
+      <stop offset="1" id="stop3852" style="stop-color:#7c885b;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3840">
+      <stop offset="0" id="stop3842" style="stop-color:#116f11;stop-opacity:1"/>
+      <stop offset="1" id="stop3844" style="stop-color:#434e28;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3832">
+      <stop offset="0" id="stop3834" style="stop-color:#7c885b;stop-opacity:1"/>
+      <stop offset="1" id="stop3836" style="stop-color:#434e28;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3824">
+      <stop offset="0" id="stop3826" style="stop-color:#304627;stop-opacity:1"/>
+      <stop offset="1" id="stop3828" style="stop-color:#7c885b;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient xlink:href="#linearGradient3824" id="linearGradient3830" x1="138" y1="1052" x2="197" y2="898" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#linearGradient3832" id="linearGradient3838" x1="94" y1="1052" x2="69" y2="902" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1,0,0,1,240.1518,0)"/>
+    <linearGradient xlink:href="#linearGradient3840" id="linearGradient3846" x1="206" y1="944" x2="118" y2="1052" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#linearGradient3848" id="linearGradient3854" x1="103" y1="902" x2="161" y2="1052" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1,0,0,1,240.1518,0)"/>
+    <linearGradient xlink:href="#linearGradient3875" id="linearGradient3881" x1="119" y1="904" x2="149" y2="1025" gradientUnits="userSpaceOnUse"/>
+    <linearGradient xlink:href="#linearGradient3875" id="linearGradient3885" gradientUnits="userSpaceOnUse" x1="119" y1="904" x2="149" y2="1025" gradientTransform="matrix(-1,0,0,1,267.31794,0)"/>
+  </defs>
+  <metadata id="metadata3038"/>
+  <g id="layer1" transform="translate(0,-796.36218)">
+    <path d="m192 937c-29 10-57 19-86 83 2-60 16-114 43-170-18 26-45 57-59 179-12-46-32-82-49-102l0 4c-8-7-17-11-27-14 8 5 15 11 21 17l-3 2c30 27 42 72 45 118l37 0c4-54 35-89 79-116z" id="rect4083" fill="url(#linearGradient3854)"/>
+    <path d="m231 898c-7 6-14 11-19 18l4-2c-4 5-15 15-19 20l4-2c-3 5-14 20-17 25-25 49-22 95-22 95-10 0-21 0-31 0 3-60-16-114-63-161 30 26 60 53 75 134 4-136 46-168 78-186-54 41-67 94-62 172 7-30 27-75 42-95l-4 11c4-5 18-20 18-20l-1 4c0 0 12-8 18-11z" id="path4092" fill="url(#linearGradient3838)"/>
+    <path d="m38 946c23 28 47 54 48 107 17 0 35 0 52 0 3-45 22-86 98-65-38-17-87-21-107 48 0-67 18-113 46-147-32 30-54 76-61 142C83 907 56 888 26 852 60 897 94 949 99 1032 77 978 59 965 38 946z" id="path4090" fill="#2d5016"/>
+    <path d="m105 875c14 44 30 95 32 177 5 0 16 0 21 0 0-50 5-104 43-173-21 35-42 71-52 141C127 914 119 908 105 875z" id="path4096" fill="url(#linearGradient3881)"/>
+    <path d="m20 953c27-8 79 10 90 55 5-86 39-112 70-131-42 37-61 64-55 140 19-43 54-64 92-57-52 4-85 59-91 92l-15 0c-9-30-7-87-91-99z" id="rect4078" fill="url(#linearGradient3846)"/>
+    <path d="m24 889c77 9 109 82 109 163 6 0 14 0 21 0 10-36 32-76 94-79-47-6-71 5-101 56C122 912 71 891 24 889z" id="path4098" fill="url(#linearGradient3830)"/>
+    <path id="path3883" d="m183 886c-36 35-51 84-53 167-5 0-16 0-21 0 0-21-2-44-3-52-1-9-1-16-2-28-1-13-2-22-2-28 0-6-12-6-12-8 0-2 12 4 13 2 1-2-11-7-11-9 0-2 12 6 13 4 1-2-9-7-10-10-1-2 9 5 10 3 1-2-3-10-3-10 0 0 5-4 5-1 1 3-1 9 1 11 2 2 9-4 11-3 2 1-11 7-11 8 0 2 9-3 12-3 3 0-13 4-11 8 1 4 13-4 12-1-1 2-14 4-14 8 0 3 1 17 4 36 3 18 3 21 6 42 22-106 42-109 65-134z" fill="url(#linearGradient3885)"/>
+  </g>
+</svg>

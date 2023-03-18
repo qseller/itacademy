@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars</title>
+</head>
+<body>
+    <div>
+        <div id="race_cars">
+		    
+            <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" width="850" height="550" viewBox="0 0 850 550">
+            
+             <!--animation cars  
+               http://svg-art.ru   --> 
+            <defs>
+                <style type="text/css">
+                    a {
+                        color: #00cc00;
+                        text-decoration: none;
+                         }
+                        a:focus,
+                        a:active,
+                        a:hover {
+                            text-decoration: underline;
+                            fill:green;
+                        }
+                         
+                 </style>  
+             
+                    <pattern id="bluepattern" patternUnits="userSpaceOnUse" x="0" y="0" width="10" height="10" viewBox="0 0 10 10">
+                            
+                        <line x1="0" y1="0" x2="10" y2="0" stroke="lightblue" fill="none"></line>
+                        <line x1="0" y1="0" x2="0" y2="1" stroke="lightblue" fill="none"></line>
+                    </pattern>
+                    <g id="palms">
+                          <image x="0" y="0" width="53px" height="133px" xlink:href="palm.svg">
+                          </image>	
+                    </g>
+                      <g id="build">
+                          <image x="0" y="0" width="150px" height="150px" xlink:href="Building.svg">
+                          </image>	
+                    </g>
+                    <g id="industrial">
+                          <image x="0" y="0" width="167px" height="272px" xlink:href="Industrial.svg">
+                          </image>	
+                    </g>
+                        <g id="grass">
+                              <image x="0" y="0" width="256px" height="256px" xlink:href="grass.svg">
+                              </image>	
+                        </g>
+                        
+                     
+            
+            </defs>	
+                 <rect x="0" y="0" width="100%" height="100%" fill="#EAB04B" stroke="black"></rect>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#bluepattern)" stroke="black"></rect>
+             <!-- race track for cars -->	
+            <g>
+            <path id="t_path" transform="translate(0, 10)" d="M370 150C530 230 529.3-106.5 730 50 790 90 770 260 700 180 526-54.9 580 340 430 260 225.3 137.9 38.9 286.2 270 400 440 450 540 350 670 260 780 190 820 420 670 420 540 420 412.4 497.1 320 480-105.5 414.2 112.8 16.2 370 150z" style="color:#000000;  fill:none;overflow:visible;stroke-opacity:1;stroke:#C1A161; stroke-width:19px;"></path> 
+            
+            
+                <path id="t_path2" transform="translate(0, 10)" d="M388 166C548 246 547.3-90.5 748 66 808 106 788 276 718 196 544-38.9 598 356 448 276 243.3 153.9 56.9 302.2 288 416 458 466 558 366 688 276 798 206 838 436 688 436 558 436 430.4 513.1 338 496-87.5 430.2 130.8 32.2 388 166z" style="color:#000000;  fill:none;overflow:visible;stroke-opacity:1;stroke:#C1A161; stroke-width:19px;"></path> 
+            </g>	
+                  
+              <image x="0" y="-20" width="60px" height="40px" xlink:href="car-red.svg">
+                 <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="17s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                 <mpath xlink:href="#t_path"></mpath>
+                </animateMotion>
+            </image>   
+             <image x="0" y="-20" width="60px" height="40px" xlink:href="car-blue.svg">
+                 <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="16s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                 <mpath xlink:href="#t_path"></mpath>
+                </animateMotion>
+            </image> 
+            
+                <image x="0" y="-20" width="60px" height="40px" xlink:href="car-green.svg">
+                 <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="15s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                 <mpath xlink:href="#t_path2"></mpath>
+                </animateMotion>
+            </image>
+            
+                    <image x="0" y="-20" width="60px" height="40px" xlink:href="car-black.svg">
+                 <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="13.5s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                 <mpath xlink:href="#t_path"></mpath>
+                </animateMotion>
+            </image>
+            <image x="0" y="-20" width="60px" height="40px" xlink:href="car-dodger.svg">
+                 <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="13s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                 <mpath xlink:href="#t_path2"></mpath>
+                </animateMotion>
+            </image>
+                   <image x="0" y="-20" width="60px" height="40px" xlink:href="car-orange.svg">
+                     <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="12s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                     <mpath xlink:href="#t_path"></mpath>
+                    </animateMotion>
+                   </image>
+                       <image x="0" y="-20" width="60px" height="40px" xlink:href="car-white.svg">
+                         <animateMotion begin="startButton.mouseover" end="stopButton.mouseover" dur="11s" repeatCount="3" rotate="auto" restart="whenNotActive" fill="freeze">
+                             <mpath xlink:href="#t_path"></mpath>
+                          </animateMotion>
+                      </image>
+             <!-- Palm trees  -->
+                    
+                <use xlink:href="#palms" x="200" y="200"></use>		
+                <use xlink:href="#palms" x="220" y="210"></use>			
+                <use xlink:href="#palms" x="240" y="190"></use>		
+                <use xlink:href="#palms" x="800" y="-10" transform="scale(0.8)"></use>
+                <use xlink:href="#palms" x="850" y="80" transform="scale(0.8)"></use>
+                
+                <use xlink:href="#palms" x="570" y="230" transform="scale(1.1)"></use>
+                <use xlink:href="#palms" x="600" y="210" transform="scale(1.1)"></use>
+                
+                <!-- Building  -->
+                <use xlink:href="#build" x="345" y="-15" transform="scale(0.6)"></use>
+                <use xlink:href="#build" x="210" y="-5" transform="scale(0.7)"></use>
+                <use xlink:href="#build" x="100" y="3" transform="scale(0.8)"></use>
+                <use xlink:href="#build" x="-10" y="5"></use>
+                
+                <!-- Building on the launch of racing cars  -->
+                <use xlink:href="#industrial" x="920" y="30" transform="scale(0.4)"></use>
+                <!-- grass  -->
+                <use xlink:href="#grass" x="20" y="980" transform="scale(0.4)"></use>
+                <use xlink:href="#grass" x="2220" y="930" transform="scale(0.2)"></use>
+                
+                <!-- startButton  -->
+                <g id="startButton">
+                <rect x="750" y="490" rx="3" ry="3" width="60" height="20" fill="green"></rect>
+                <text x="780" y="505" font-size="16" font-weight="bold" font-family="Arial" text-anchor="middle" fill="white">Start</text>
+                </g>
+                        <g id="stopButton">
+                            <rect x="650" y="490" rx="3" ry="3" width="60" height="20" fill="crimson"></rect>
+                            <text x="680" y="505" font-size="16" font-weight="bold" font-family="Arial" text-anchor="middle" fill="white">Stop</text>
+                       </g>
+                <a xlink:href="http://svg-art.ru/?p=1058#more-1058"><text x="690" y="530" style="font-family: Arial; font-size: 12px;  ">back to the article</text> </a> 
+                <text x="170" y="540" style="font-family: Arial; font-size: 14px; fill: dodgerblue;">To start the animation, move your mouse cursor on the Start button</text> 
+                
+                
+            </svg>
+                    </div>
+    </div>
+</body>
+</html>
