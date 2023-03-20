@@ -6,7 +6,7 @@
         clear: both;
     }
     .stat{
-        width: 400px;
+        width: 22%;
         margin-left: 50px;
     }
     .ots{
@@ -19,7 +19,7 @@
         margin-top: 5px;
     }
     .pub{
-        width: 574px
+        width: 31.5%;
     }
 }
 @media (max-width: 601px){
@@ -32,7 +32,7 @@
         
     }
     .stat{
-        width: 280px;
+        width: 40%;
         margin-left: 0px;    
     }
     .ots{
@@ -52,7 +52,7 @@
         display: block;
     }
     .pub{
-        width: 284px;
+        width: 40%;
     }
     #r1, #r2, #r3{
         display: block;
