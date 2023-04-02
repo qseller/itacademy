@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oper</title>
+  </head>
+  <body>
+    <div>
+        <script>
+            let fam = prompt("Ваша Фамилия");
+            let name = prompt("Ваше Имя");
+            let iot = prompt("Ваше Отчество");
+            let yeah = Number(prompt("Возраст в годах"));
+            let pol = confirm("Ваш пол - мужской?")
+            
+            alert(
+              "Ваше ФИО: " +
+                 fam +' '+
+                 name +' '+
+                 iot +
+                "\n" +
+                "Ваш возраст в годах: " +
+                yeah +
+                "\n" +
+                "Ваш возраст в днях: " +
+                yeah * 365 +
+                "\n" +
+                "Через 5 лет вам будет: " +
+                (yeah + 5) +
+                "\n" +
+                "Ваш пол: " +
+                (pol ? "мужской" : "женский") +
+                "\n" +
+                "Вы на пенсии: " +
+                ((yeah >= 65 && pol == true) || (yeah >= 63 && pol == false)
+                ? "да" : "нет"));
+          </script>
+    </div>
+  </body>
+</html>
