@@ -1,3 +1,5 @@
-.face {
-    display: grid;
+.face{
+    background-image: url(/FionIMG/goncong.jpeg);
+    width: 100px;
+    height: 100px;
 }
