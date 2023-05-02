@@ -1,0 +1,182 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.containerOne{
+    width: 1920;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+}
+header.cap{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.cap::before{
+    margin-top: 100px;
+    margin-left: -10px;
+    content: "";
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: red;
+    position: absolute;
+}
+.logo{
+    background: url(logoIT-transformed.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.navGroup{
+    display: flex;
+    width: 800px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navigation{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #000000A3;
+}
+.headContent{
+    padding: 50px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h2{
+  font-size: 30px;
+}
+.btnOne{
+    color: white;
+    background: #DA6B62E1;
+}
+.btnTwo{
+    color: black;
+    background: none;
+}
+.btnGroup{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    position: relative;
+    border: 1px solid #DA6B62A3;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.btnGroup:before, .btn:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .btnGroup:hover:before, 
+  .btnGroup:hover:after {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .btnGroup:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+  }
+  .btnGroup:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+  }
+  .btnTwo:hover{
+    color: white;
+    background: #DA6B62E1;
+  }
+  .btnOne:hover{
+    color: black;
+    background: none;
+  }
+  .girlCircle{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 500px;
+    overflow: hidden;
+}
+  .circle{
+    width: 350px; 
+    height: 350px;
+    background: #DA6B62E1;
+    border-radius: 50%;
+    z-index: 3;
+    overflow: hidden;
+         
+  }
+  .lines{
+    position: absolute;
+    z-index: 4;
+  }
+  .girl{
+    position: absolute;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background: url(girl.png);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 457px;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+
+  }
+  .description{
+    padding: 50px;
+  }
+  .borders{
+    display: flex;
+    justify-content: space-between;
+  }
+  .borderGroup h3{
+    text-align: center;
+    font-size: 23px;
+  }
+  .borderGroup ul{
+    padding: 20px;
+  }
+  .borderGroup{
+    border: 1px solid none;
+    background-color: #DAECEACD;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 450px;
+    height: 210px;
+    line-height: 2em;
+  }
+  .borderPad{
+    padding: 15px;
+  }
+  .backSvg{
+    position: absolute;
+    margin: -15px 0px 0px -15px;  
+  }
+  
+  
