@@ -3,12 +3,14 @@
     padding: 0;
     font-weight: 700;
 }
-
-.containerOne{
-    width: 1920;
+.content{
+  width: 1485px;
+  margin: auto;
+}
+  
+.greetings{
     margin: auto;
-    padding: 0px 10px 0px 10px;
-    overflow: hidden;
+    padding: 0px 50px 0px 50px;
 }
 header.cap{
     display: flex;
@@ -17,16 +19,15 @@ header.cap{
 }
 .cap::before{
     margin-top: 100px;
-    margin-left: -10px;
     content: "";
-    width: 100%;
+    width: 1386px;
     display: block;
     height: 2px;
     background: red;
     position: absolute;
 }
 .logo{
-    background: url(logoIT-transformed.png);
+    background: url(../IMG/logoIT-transformed.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: left;
@@ -53,10 +54,9 @@ a:hover{
     color: #000000A3;
 }
 .headContent{
-    padding: 50px;
-    height: 480px;
+    padding: 50px 0px 50px 0px;
+    height: 440px;
     display: flex;
-    justify-content: space-between;
 }
 h1{
     font-size: 40px;
@@ -119,7 +119,7 @@ h2{
     display: flex;
     align-items: end;
     justify-content: center;
-    width: 500px;
+    width: 700px;
     overflow: hidden;
 }
   .circle{
@@ -139,7 +139,7 @@ h2{
     position: absolute;
     border-bottom-left-radius: 300px;
     border-bottom-right-radius: 300px;
-    background: url(girl.png);
+    background: url(../IMG/girl.png);
     background-repeat: no-repeat;
     width: 350px;
     height: 457px;
@@ -148,8 +148,8 @@ h2{
     z-index: 5;
 
   }
-  .description{
-    padding: 50px;
+  .whoThisCourse{
+    padding: 50px 0px 50px 0px;
   }
   .borders{
     display: flex;
@@ -178,5 +178,118 @@ h2{
     position: absolute;
     margin: -15px 0px 0px -15px;  
   }
-  
-  
+  .description{
+    margin: auto;
+    padding: 0px 50px 0px 50px;
+  }
+  .description h1 {
+    font-size: 30px;
+    text-transform: none;
+}
+  .course{
+    padding: 50px 0px 50px 0px;
+  }
+  .courseOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .courseOneContentOne{
+    display: flex;
+    flex-direction: column;
+  }
+  .columnCourse{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px 20px 20px;
+    height: 60px;
+    width: 220px;
+    font-size: 13px;
+    border: 1px solid #DE7D75FF;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .columnCourse span {
+    font-size: 30px;
+}
+  .courseOneContentTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 1000px;
+  }
+  * img{ 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+
+}
+.circleMini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    background: #DA6B62E1;
+    border-radius: 50%;
+    z-index: 3;
+    overflow: hidden;
+}
+.circleMini svg {
+  margin-left: 8px;
+}
+.courseTwo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.courseTwoContentOne{
+  width: 400px;
+  line-height: 30px;
+}
+.courseTwoContentTwo{
+  display: flex;
+  background: url(../IMG/Group\ 37.png);
+  width: 603px;
+  height: 330px;
+  margin-right: 150px;
+}
+.btnCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.graduates{
+  padding: 50px 0px 50px 0px;
+}
+.graduatesImgGroup{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.littleEye{
+  padding: 10px 0px 10px 0px;
+}
+.graduateImgSizeBig{
+  width: 550px;
+  height: 350px;
+}
+.graduateImgSizeSmall{
+  width: 270px;
+  height: 350px;
+}
