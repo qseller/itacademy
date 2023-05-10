@@ -293,3 +293,88 @@ h2{
   width: 270px;
   height: 350px;
 }
+.review{
+  padding: 0px 50px 0px 50px;
+}
+.teachersContainer{
+  padding: 50px 0px 50px 0px;
+}
+.teachers{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.teachersBorder{
+  padding: 30px;
+  border: 1px solid #FC8D84FF;
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.teachersBorder img{
+  width: 270px;
+  height: 405px;
+}
+.review h1 {
+  text-transform: none;
+  font-size: 30px;
+}
+.teachersContent{
+  display: flex;
+  flex-flow: column;
+  padding-left: 20px;
+  line-height: 40px;
+}
+.webDesign{
+  color: #FC8D84FF;
+}
+.findOut{
+  color: #FC8D84FF;
+  text-decoration: none;
+}
+.findOut:hover{
+  opacity: .7;
+}
+.employmentProgramContainer{
+  padding: 50px 0px 50px 0px;
+}
+.employmentProgram{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.employmentProgramBorder{
+  padding: 20px;
+  border: 1px solid none;
+  background-color: #FFDCD9FF;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 440px;
+  text-align: center;
+}
+.employmentProgramContent{
+  display: flex;
+  flex-flow: column;
+  line-height: 40px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 20px;
+}
+.carousel-item{
+  width: auto;
+}
+.employmentSliderContainer{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+}
+.employmentSlider{
+  width: 400px;
+}
