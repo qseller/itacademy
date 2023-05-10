@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="numbers"></input><br/>
+        <button onclick="cToF()">В цельсия</button><br/>
+        <button onclick="fToC()">В фаренгейта</button><br/>
+        <a id="result"></a>
+
+    </div>
+    <script>
+    function cToF() {
+        let nums = document.getElementById('numbers').value;
+        let cTemp = nums;
+        let cToFahr = cTemp * 9 / 5 + 32;
+        let result = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+        document.getElementById('result').innerHTML = result;
+        }
+
+    function fToC(fahrenheit)  {
+        let nums = document.getElementById('numbers').value;
+        let fTemp = nums;
+        let fToCel = (fTemp - 32) * 5 / 9;
+        let result = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+        document.getElementById('result').innerHTML = result;
+        } 
+
+    </script>
+</body>
+</html>
