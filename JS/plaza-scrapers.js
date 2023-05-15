@@ -15,6 +15,14 @@ $(document).ready(function(){
   
 });
 
+$('body').on('input', '#phone', function(){
+	this.value = this.value.replace(/[^0-9]/g, '');
+});
+
+$('body').on('input', '#name', function(){
+	this.value = this.value.replace(/[^a-zа-яё\s]/gi, '');
+});
+
 
 
 
