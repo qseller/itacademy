@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function iconic(str) {
+        let startP = 0;
+        let endP= str.length;
+        if (str.charAt(0) == 'm' && str.charAt(str.length - 1) == 'm') 
+            { 
+                startP = 1;
+                endP--; 
+            }
+        else
+            {
+                return str;
+            }
+
+        return str.substring(startP, endP);   
+        }
+        console.log(iconic("my string is long"));
+        console.log(iconic("my string is longm"));
+    </script>
+</body>
+</html>
