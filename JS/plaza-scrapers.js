@@ -23,6 +23,26 @@ $('body').on('input', '#name', function(){
 	this.value = this.value.replace(/[^a-zа-яё\s]/gi, '');
 });
 
+$("#cheks").click(function() {
+  if (($(this).prop("checked"))) {
+    $("#dis").removeAttr("disabled");
+  } else {
+    $("#dis").attr("disabled", "disabled");
+  }
+})
 
+$("#cheksOne").click(function() {
+    if (($(this).prop("checked"))) {
+      $("#disOne").removeAttr("disabled");
+    } else {
+      $("#disOne").attr("disabled", "disabled");
+    }
+  })
 
-
+$("#cheksFast").click(function() {
+    if (($(this).prop("checked"))) {
+      $("#disFast").removeAttr("disabled");
+    } else {
+      $("#disFast").attr("disabled", "disabled");
+    }
+  })

@@ -7,11 +7,14 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     outline: none;
+    transition-duration: .7s;
+    transition-timing-function: ease;
 }
     .screenPage{
         max-width: 1300px;
         margin: auto;
         padding: 0px 50px 0px 50px;
+        
     }
     .backPage {
         background-image: url(../IMG/newyork.jpg);
@@ -194,6 +197,7 @@ body {
         height: 100px;
         font-size: 15px;
         color: #A4ADC4D3;
+        
     }
 
     .options {
@@ -945,6 +949,23 @@ body {
     #btnThanks{
         padding-top: 70px;
     }
+    button#dis {
+        height: 50px;
+        background: antiquewhite;
+    }
+    button#dis:hover {
+        opacity: .7;
+    }
+    button#disOne {
+        height: 50px;
+        padding: 20px 20px 35px 20px;
+        color: #000000;
+        width: 100%;
+        background: antiquewhite;
+    }
+    button#disOne:hover {
+        opacity: .7;
+    }
 
     @keyframes flareAnimation {
         0% {
@@ -954,7 +975,7 @@ body {
             left: 150%;
         }
     }
-    
+
 @media (max-width: 1300px) {
     .screenPage{
         max-width: 1000px;
@@ -1287,6 +1308,9 @@ body {
     }
     .importantInfo {
         font-size: 8px;
+    }
+    .btnMega{
+        font-size: 13px;
     }
 }
 @media (max-width: 320px) {
